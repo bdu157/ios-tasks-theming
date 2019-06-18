@@ -7,6 +7,9 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Architex.ttf</string>
+		<string>fake receipt.ttf</string>
+		<string>burnstown dam.ttf</string>
+		<string>good times.ttf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>

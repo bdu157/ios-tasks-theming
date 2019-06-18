@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B23B4AC22B891AB0064524A /* AppearanceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B23B4AB22B891AB0064524A /* AppearanceHelper.swift */; };
+		0B23B4B022B899CB0064524A /* fake receipt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B23B4AF22B899CB0064524A /* fake receipt.ttf */; };
+		0B23B4B222B89C470064524A /* burnstown dam.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B23B4B122B89C470064524A /* burnstown dam.ttf */; };
+		0B23B4B422B8A1DC0064524A /* good times.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B23B4B322B8A1DC0064524A /* good times.ttf */; };
 		46179D3C229D8257009CE2C4 /* Architex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46179D3B229D8257009CE2C4 /* Architex.ttf */; };
 		9D4408C7211FF431005E2116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4408C6211FF431005E2116 /* AppDelegate.swift */; };
 		9D4408CC211FF431005E2116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4408CA211FF431005E2116 /* Main.storyboard */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B23B4AB22B891AB0064524A /* AppearanceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceHelper.swift; sourceTree = "<group>"; };
+		0B23B4AF22B899CB0064524A /* fake receipt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fake receipt.ttf"; sourceTree = "<group>"; };
+		0B23B4B122B89C470064524A /* burnstown dam.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "burnstown dam.ttf"; sourceTree = "<group>"; };
+		0B23B4B322B8A1DC0064524A /* good times.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "good times.ttf"; sourceTree = "<group>"; };
 		46179D3B229D8257009CE2C4 /* Architex.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Architex.ttf; sourceTree = "<group>"; };
 		9D4408C3211FF431005E2116 /* Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4408C6211FF431005E2116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +54,7 @@
 		4B13589322091C55009F6A12 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				0B23B4AB22B891AB0064524A /* AppearanceHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -86,6 +95,9 @@
 				9D4408CD211FF434005E2116 /* Assets.xcassets */,
 				9D4408CF211FF434005E2116 /* LaunchScreen.storyboard */,
 				9D4408D2211FF434005E2116 /* Info.plist */,
+				0B23B4B122B89C470064524A /* burnstown dam.ttf */,
+				0B23B4AF22B899CB0064524A /* fake receipt.ttf */,
+				0B23B4B322B8A1DC0064524A /* good times.ttf */,
 				46179D3B229D8257009CE2C4 /* Architex.ttf */,
 			);
 			path = Resources;
@@ -176,7 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				46179D3C229D8257009CE2C4 /* Architex.ttf in Resources */,
+				0B23B4B422B8A1DC0064524A /* good times.ttf in Resources */,
 				9D4408D1211FF434005E2116 /* LaunchScreen.storyboard in Resources */,
+				0B23B4B022B899CB0064524A /* fake receipt.ttf in Resources */,
+				0B23B4B222B89C470064524A /* burnstown dam.ttf in Resources */,
 				9D4408CE211FF434005E2116 /* Assets.xcassets in Resources */,
 				9D4408CC211FF431005E2116 /* Main.storyboard in Resources */,
 			);
@@ -194,6 +209,7 @@
 				9D4408E3211FF752005E2116 /* TasksTableViewController.swift in Sources */,
 				9D4408C7211FF431005E2116 /* AppDelegate.swift in Sources */,
 				9D4408DF211FF67E005E2116 /* Task.swift in Sources */,
+				0B23B4AC22B891AB0064524A /* AppearanceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

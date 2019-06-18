@@ -14,8 +14,30 @@ class TaskDetailViewController: UIViewController {
         super.viewDidLoad()
 
         updateViews()
+        setAppearances()
     }
-
+    
+    private func setAppearances() {
+        view.backgroundColor = AppearanceHelper.backgroundBlue
+        AppearanceHelper.style(label: nameLabel)
+        AppearanceHelper.style(label: priorityLabel)
+        AppearanceHelper.style(label: notesLabel)
+        
+        nameTextField.backgroundColor = AppearanceHelper.backgroundBlue
+        nameTextField.textColor = .white
+        nameTextField.layer.borderColor = UIColor.white.cgColor
+        nameTextField.layer.borderWidth = 0.7
+        nameTextField.layer.cornerRadius = 8.0
+        nameTextField.font = AppearanceHelper.setUpFontAndSize(with: .caption1, size: 13, font: .fakeReceipt)
+        
+        notesTextView.backgroundColor = AppearanceHelper.backgroundBlue
+        notesTextView.textColor = .white
+        notesTextView.layer.borderColor = UIColor.white.cgColor
+        notesTextView.layer.borderWidth = 0.7
+        notesTextView.layer.cornerRadius = 8.0
+        notesTextView.font = AppearanceHelper.setUpFontAndSize(with: .caption2, size: 12, font: .fakeReceipt)
+    }
+    
     @IBAction func save(_ sender: Any) {
         guard let name = nameTextField.text, !name.isEmpty else {
             return
@@ -60,6 +82,10 @@ class TaskDetailViewController: UIViewController {
     
     var taskController: TaskController!
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var priorityLabel: UILabel!
+    @IBOutlet weak var notesLabel: UILabel!
+    
     @IBOutlet var nameTextField: UITextField!
     @IBOutlet var priorityControl: UISegmentedControl!
     @IBOutlet var notesTextView: UITextView!
